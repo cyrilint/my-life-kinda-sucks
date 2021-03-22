@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -321,6 +325,7 @@ blockquote {
 
 .fa-tags {
   margin-right: 10px;
+  font-size: 15px;
 }
 
 .tags__title {
@@ -486,6 +491,9 @@ blockquote {
   }
   .navigation__link {
     font-size: 20px;
+  }
+  .header__socials {
+    padding-top: 15px;
   }
   .news__wrapper {
     display: block;
