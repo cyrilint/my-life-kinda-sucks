@@ -482,10 +482,6 @@ blockquote {
     width: 90%;
     overflow: hidden;
   }
-  section {
-    width: 100%;
-    overflow: hidden;
-  }
   body {
     min-width: fit-content;
   }
