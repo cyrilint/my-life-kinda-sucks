@@ -479,6 +479,10 @@ blockquote {
 
 @media (max-width: 1000px) {
   .container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .section {
     width: 90%;
     overflow: hidden;
   }
