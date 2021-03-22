@@ -1,0 +1,84 @@
+@media (max-width: 1000px) {
+    .container {
+        width: 90%;
+        overflow: hidden;
+    }
+    body {
+        min-width: fit-content;
+    }
+    .navigation__link {
+        font-size: 20px;
+    }
+    .news__wrapper {
+        display: block;
+    }
+    .news__other {
+        padding-left: 0;
+        padding-top: 60px;
+    }
+    .news-article {
+        font-size: 23px;
+    }
+    .blog-content__title {
+        font-size: 25px;
+    }
+    .blog-article {
+        font-size: 23px;
+    }
+    .tags__title {
+        font-size: 40px;
+    }
+    .tags__label {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 870px) {
+    .navigation__link {
+        font-size: 25px;
+    }
+    .bio__right {
+        padding-left: 55px;
+        font-size: 20px;
+    }
+    .companies-wrapper img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .navigation__link {
+        font-size: 25px;
+    }
+    .bio__info {
+        display: block;
+    }
+    .bio__ava {
+        display: flex;
+        img {
+            margin: auto;
+        }
+    }
+    .bio__right {
+        padding-left: 0;
+        font-size: 23px;
+    }
+    .bio__name {
+        font-size: 45px;
+    }
+    .bio__title {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 370px) {
+    .news-article {
+        font-size: 27px;
+    }
+    .blog-content__title {
+        font-size: 30px;
+    }
+    .blog-article {
+        font-size: 27px;
+    }
+}
