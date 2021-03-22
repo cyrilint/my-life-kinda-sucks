@@ -479,11 +479,11 @@ blockquote {
 
 @media (max-width: 1000px) {
   .container {
-    width: 100%;
+    width: 90%;
     overflow: hidden;
   }
-  .section {
-    width: 90%;
+  section {
+    width: 100%;
     overflow: hidden;
   }
   body {
