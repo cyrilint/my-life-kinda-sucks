@@ -549,6 +549,24 @@ blockquote {
   }
 }
 
+@media (max-width: 640px) {
+  .header__right-side {
+    display: block;
+  }
+  .navigation__link {
+    font-size: 35px;
+  }
+  .socials__icon img {
+    width: 60px;
+  }
+  .works__nav-link {
+    font-size: 35px;
+  }
+  .header__wrapper {
+    padding: 30px;
+  }
+}
+
 @media (max-width: 370px) {
   .news-article {
     font-size: 27px;
