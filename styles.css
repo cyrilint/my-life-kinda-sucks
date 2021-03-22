@@ -482,8 +482,12 @@ blockquote {
     width: 90%;
     overflow: hidden;
   }
+  html {
+    overflow-x: hidden;
+  }
   body {
-    min-width: fit-content;
+    min-width: auto;
+    overflow-x: hidden;
   }
   .navigation__link {
     font-size: 20px;
@@ -501,6 +505,9 @@ blockquote {
   .news-article {
     font-size: 23px;
   }
+  .news__articles {
+    padding-right: 0;
+  }
   .blog-content__title {
     font-size: 25px;
   }
@@ -517,7 +524,7 @@ blockquote {
 
 @media (max-width: 870px) {
   .navigation__link {
-    font-size: 25px;
+    font-size: 24px;
   }
   .bio__right {
     padding-left: 55px;
@@ -558,16 +565,22 @@ blockquote {
     display: block;
   }
   .navigation__link {
-    font-size: 35px;
+    font-size: 24px;
   }
   .socials__icon img {
-    width: 60px;
+    width: 34px;
   }
   .works__nav-link {
-    font-size: 35px;
+    font-size: 23px;
   }
   .header__wrapper {
-    padding: 30px;
+    padding: 0;
+  }
+  .news-article__tags {
+    padding-left: 20px;
+  }
+  .footer__mail {
+    padding: 10px;
   }
 }
 
